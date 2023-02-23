@@ -37,11 +37,47 @@ const Search  = () =>{
             </form>
 
             <div className = "secDiv flex items-center gap-10 justify-center">
-                <div classname="singleSearch flex items-center gap-2">
+            <div classname="singleSearch flex items-center gap-2">
                     <label htmlFor="relevance" className="text-[#808080] font-semibold">
                         Sort By:
                     </label>
+
+                    <select name="" id ="relevance" className='bg-white rounded-[3px] px-4 py-1'>
+                        <option value=""> Relevance </option>
+                        <option value=""> Inclusive </option>
+                        <option value=""> Start with </option>
+                        <option value=""> Contains </option>
+                    </select>
                 </div>
+
+
+                <div classname="singleSearch flex items-center gap-2">
+                    <label htmlFor="type" className="text-[#808080] font-semibold">
+                        Sort By:
+                    </label>
+
+                    <select name="" id ="type" className='bg-white rounded-[3px] px-4 py-1'>
+                        <option value=""> Full-time </option>
+                        <option value=""> Remote </option>
+                        <option value=""> Contract </option>
+                        <option value=""> Part-time </option>
+                    </select>
+                </div>
+
+                <div classname="singleSearch flex items-center gap-2">
+                    <label htmlFor="level" className="text-[#808080] font-semibold">
+                        Sort By:
+                    </label>
+
+                    <select name="" id ="level" className='bg-white rounded-[3px] px-4 py-1'>
+                        <option value=""> Senior </option>
+                        <option value=""> Intermediate </option>
+                        <option value=""> Junior </option>
+                        <option value=""> Advocate </option>
+                    </select>
+                </div>
+
+               <span className ="text-[#a1a1a1]"> Clear All</span>
             </div>
 
             
