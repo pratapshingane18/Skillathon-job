@@ -1,5 +1,6 @@
 import React from 'react'
 import {BiTimeFive} from 'react-icons/bi'
+import pratLogo from '../../assets/img/pratlogo.png';
 
 const Jobs  = () =>{
     return (
@@ -29,6 +30,17 @@ const Jobs  = () =>{
                   placeat quae ratione odit dolore expedita?
                   
             </p>
+
+
+
+            <div className='company flex items-center gap-2'>
+                <img src={pratLogo} alt="Company Logo" className = 'w-[10%]' />
+
+                <span className = "text-[14px] py-[1rem] block group-hover:text-red">
+                    Druva India Co.
+                </span>
+            </div>
+
 
                 </div>
             </div>
