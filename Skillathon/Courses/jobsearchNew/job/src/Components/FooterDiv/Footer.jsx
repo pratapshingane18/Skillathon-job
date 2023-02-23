@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Search  = () =>{
+const Footer  = () =>{
     return (
-        <div> Search</div>
+        <div> Footer</div>
 
     )
 }
 
-export default Search
+export default Footer
