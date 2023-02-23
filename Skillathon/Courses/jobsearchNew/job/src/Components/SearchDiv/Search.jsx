@@ -5,7 +5,7 @@ import {BsHouseDoor} from 'react-icons/bs'
 import {CiLocationOn} from 'react-icons/ci'
 const Search  = () =>{
     return (
-        <div className ='searchDiv grid gp-10 bg-[#f1f4f8] rounded-[10px] p-[3rem]'> 
+        <div className ='searchDiv grid gp-10 bg-[#f1f4f8] rounded-[10px] p-[2rem]'> 
             <form action="">
                 <div className ='firstDiv flex justify-between items-center rounded-[8px] gap-[10px] bg-white p-5 shadow-lg shadow-greyIsh-700'>
                     <div className='flex gap-2 items-center'>
@@ -32,11 +32,13 @@ const Search  = () =>{
                         <AiOutlineCloseCircle className = 'text-[30px] text-[#a5a6a6] hover:text-textColor icon'   />
                     </div>
 
-                    <button className='bg-[#2a68ff] h-full p-5 px-10 rounded-[10px] text-black cursor-pointer hover:bg-blue-300'> Search</button>
+                    <button className='bg-[#2a68ff] h-full p-2 px-10 rounded-[10px] text-black cursor-pointer hover:bg-blue-300'> Search</button>
                 </div>
             </form>
 
             <div className = "secDiv flex items-center gap-10 justify-center">
+
+            <div class="p-8"> </div>
             <div classname="singleSearch flex items-center gap-2">
                     <label htmlFor="relevance" className="text-[#808080] font-semibold">
                         Sort By:

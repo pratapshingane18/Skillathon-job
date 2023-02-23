@@ -332,7 +332,7 @@ const Footer  = () =>{
     <div class="mt-8 border-t border-gray-100 pt-8">
       <div class="sm:flex sm:justify-between">
         <p class="text-xs text-gray-500">
-          &copy; 2022. Company Name. All rights reserved.
+          &copy; 2022. VULCAN FORGE. All rights reserved.
         </p>
 
         <nav aria-label="Footer Navigation - Support" class="mt-8 sm:mt-0">
