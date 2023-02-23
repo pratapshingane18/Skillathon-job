@@ -11,20 +11,23 @@ const NavBar  = () =>{
             </div>
 
             <div className="menu flex gap-8">
+            <li className="menuList text-[#6f6f6f] hover:text-blueColor">
+                    <a href='jobsearchNew\job\src\Job.jsx'>Home</a>
+                </li>
                 <li className="menuList text-[#6f6f6f] hover:text-blueColor">
-                    Companies 
+                    Job
                 </li>
 
                 <li className="menuList text-[#6f6f6f] hover:text-blueColor">
-                    About
+                    Courses
                 </li>
 
                 <li className="menuList text-[#6f6f6f] hover:text-blueColor">
-                    Contact
+                    Scholarships
                 </li>
 
                 <li className="menuList text-[#6f6f6f] hover:text-blueColor">
-                    blog
+                    Mentors
                 </li>
 
                 <li className="menuList text-[#6f6f6f] hover:text-blueColor">
