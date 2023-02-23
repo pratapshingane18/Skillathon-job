@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,800;1,200&display=swap');
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
 
 
 :root{
@@ -13,7 +15,7 @@ body{
   background:white;
 }
 
-/* li{
+li{
   list-style:none;
   cursor: pointer;
   position:relative;
@@ -28,6 +30,7 @@ li:hover::before{
   width: 100px;
   background: #2a68ff;
   right: 0;
+  bottom:-10px;
   color: #2a68ff;
 }
 
@@ -35,7 +38,7 @@ li:hover::before{
   cursor:pointer;
 
 }
-
+/*
 .card{
   background: #000;
 
