@@ -6,16 +6,16 @@ const NavBar  = () =>{
             
             <div className="logoDiv">
                 <h1 className="logo text-[25px] text-[#2a68ff]">
-                    <strong> Job</strong> Search
+                    <strong> Aspire-You</strong> 
                 </h1>
             </div>
 
             <div className="menu flex gap-8">
             <li className="menuList text-[#6f6f6f] hover:text-blueColor">
-                    <a href='jobsearchNew\job\src\Job.jsx'>Home</a>
+                   Home
                 </li>
                 <li className="menuList text-[#6f6f6f] hover:text-blueColor">
-                    Job
+                Job
                 </li>
 
                 <li className="menuList text-[#6f6f6f] hover:text-blueColor">
